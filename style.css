@@ -1,4 +1,114 @@
 *{
     margin:0;
     padding:0;
+    --main-bg:#070707;
+    --font-color:#ABB0B7;
+}
+@font-face {
+    font-family: SF Pro Display;
+    src: url("fonts/SFProDisplay-Light.ttf");
+}
+@font-face {
+    font-family: SFProDisplay-Regular;
+    src: url("fonts/SFProDisplay-Regular.ttf");
+}
+.bg-dark{
+    background: var(--main-bg);
+}
+.header_top .nav a{
+    color:var(--font-color);
+    font-family: SF Pro Display;
+    padding:20px 40px;
+}
+.header_top  .nav>li>a:focus, .nav>li>a:hover{
+    background-color: transparent;
+}
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 33px;
+    height: 21px;
+    margin-bottom: 0;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--font-color);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+.nav_slider{
+    display:flex;
+    margin-top:20px;
+    align-items: center;
+}
+.nav_slider img{
+    margin:0 10px;
+}
+.header_middle nav{
+    background-color: transparent;
+    border-color:transparent;
+    margin-bottom: 0;
+}
+.header_middle nav a{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+.header_middle nav img{
+    margin: 0 5px;
+}
+#header_middle{
+    background: #151515;
+    padding:15px 0;
+}
+.brand img{
+    margin-top: 7px!important;
 }

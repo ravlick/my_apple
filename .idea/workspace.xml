@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a56ccd1b-d1a0-47a7-a828-300fe83a8816" name="Default Changelist" comment="" />
+    <list default="true" id="a56ccd1b-d1a0-47a7-a828-300fe83a8816" name="Default Changelist" comment="start new project my-apple.com">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jmETaidqBmEZLgVWwSNAiQV4kk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,11 +44,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604400874859</updated>
-      <workItem from="1604400876208" duration="96000" />
+      <workItem from="1604400876208" duration="6171000" />
     </task>
+    <task id="LOCAL-00001" summary="start new project my-apple.com">
+      <created>1604401054565</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604401054565</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start new project my-apple.com" />
+    <option name="LAST_COMMIT_MESSAGE" value="start new project my-apple.com" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="817" y="354" width="449" height="522" key="FileChooserDialogImpl" timestamp="1604400986981">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="817" y="354" width="449" height="522" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1604400986981" />
+    <state x="903" y="510" width="287" height="209" key="Github.ShareDialog" timestamp="1604401078909">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="903" y="510" width="287" height="209" key="Github.ShareDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1604401078909" />
   </component>
 </project>
